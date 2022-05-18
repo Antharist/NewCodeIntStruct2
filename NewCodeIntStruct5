@@ -1,0 +1,5 @@
+while (word != 0) {
+  result[i] = trailingzeroes(word);
+  word = word & (word - 1);
+  i++;
+}
